@@ -1,0 +1,19 @@
+{
+    "favicon": "/images/fpo-shapes.png",
+    "header": "content/data/header.json",
+    "footer": "content/data/footer.json",
+    "titleSuffix": "Header",
+    "defaultSocialImage": "/images/fpo-shapes.png",
+    "defaultMetaTags": [
+        {
+            "type": "MetaTag",
+            "property": "og:title",
+            "content": "lorem-ipsum"
+        },
+        {
+            "type": "MetaTag",
+            "property": "og:image",
+            "content": "lorem-ipsum"
+        }
+    ]
+}

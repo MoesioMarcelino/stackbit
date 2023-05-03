@@ -1,7 +1,15 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
-    reactStrictMode: true,
-    swcMinify: true
+    env: {
+        stackbitPreview: process.env.STACKBIT_PREVIEW
+    },
+    trailingSlash: true,
+    webpack: (config) => {
+        config.watchOptions.ignored.push('**/content/pages/**');
+        return config;
+    }
 };
 
 module.exports = nextConfig;

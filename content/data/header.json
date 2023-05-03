@@ -1,0 +1,9 @@
+{
+    "title": "Home",
+    "logo": {
+        "type": "ImageBlock",
+        "altText": "altText of the image",
+        "elementId": "",
+        "url": "/vercel.svg"
+    }
+}

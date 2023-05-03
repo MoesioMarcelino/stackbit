@@ -9,14 +9,18 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "fs": "^0.0.1-security",
         "glob": "^8.0.3",
         "gray-matter": "^4.0.3",
         "markdown-to-jsx": "^7.1.7",
+        "moesiomarcelino-react": "^2.0.0",
+        "moesiomarcelino-tokens": "^3.0.0",
         "next": "12.2.3",
         "react": "18.2.0",
         "react-dom": "18.2.0"
     },
     "devDependencies": {
+        "@stackbit/types": "^0.1.8",
         "autoprefixer": "^10.4.8",
         "eslint": "8.21.0",
         "eslint-config-next": "12.2.3",
